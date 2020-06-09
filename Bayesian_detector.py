@@ -43,12 +43,14 @@ def EVALAD(label_true,adscore,numbins):
         
     return falsealarmrate,detectionrate
 
+
 # -----------------------------------------
 # Outlier score measurement 
 # -----------------------------------------
 def cal_outScore(mu,Lam,nu,x):
     base = 1 + 1/nu*np.diag((x-mu).T.dot(Lam).dot(x-mu))
     return -np.power(base,-1)
+
 
 epochs = 10
 AUCs = []
