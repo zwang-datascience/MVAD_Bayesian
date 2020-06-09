@@ -79,6 +79,7 @@ for epoch in range(epochs):
     V = 2
     d = np.array([dims[0],dims[1]])
     N = x_train_view1.shape[0]
+    # m = 10
     m = min(d)-1
     itrs = 6
     x = [x_train_view1.T,x_train_view2.T]
