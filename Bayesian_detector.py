@@ -52,7 +52,7 @@ def cal_outScore(mu,Lam,nu,x):
 
 epochs = 10
 AUCs = []
-dims = [,] # for different datasets, setting their dimensionalities of 1st view and 2nd view 
+dims = [,] # for different datasets, setting their dimensionalities of 1st view and 2nd view. (e.g. [1703,195]） 
 fars = []
 drs = []
 for epoch in range(epochs):
