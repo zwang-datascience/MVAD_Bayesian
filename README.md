@@ -14,4 +14,4 @@ Download the below raw datasets, then preprocess them(, mainly feature rescaling
 ## Citation
 If this code is useful for your research, please cite our paper:
 
-    <To be anounced>
+Wang, Zhen, and Chao Lan. "Towards a Hierarchical Bayesian Model of Multi-View Anomaly Detection." In IJCAI, pp. 2420-2426. 2020.
